@@ -4,9 +4,9 @@ Simple collaboration app for [Startup Engineering Assignment](https://ocw.cs.pub
 
 ### Public endpoint
 
-The applicaiton is live at `http://collabtool.valinet.ro`.
+The applicaiton is live at http://collabtool.valinet.ro.
 
-Most recent source code is available at `https://github.com/valinet/collabtool`.
+Most recent source code is available at https://github.com/valinet/collabtool.
 
 ### Details
 
