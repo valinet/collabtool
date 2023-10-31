@@ -1,0 +1,13 @@
+[Unit]
+Description=CollabTool Client
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+ExecStart=npm run dev
+WorkingDirectory=/root/collabtool/client
+
+[Install]
+WantedBy=multi-user.target

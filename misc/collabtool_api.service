@@ -1,0 +1,13 @@
+[Unit]
+Description=CollabTool API
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+ExecStart=npm start
+WorkingDirectory=/root/collabtool/api
+
+[Install]
+WantedBy=multi-user.target
